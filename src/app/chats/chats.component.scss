@@ -1,0 +1,19 @@
+.chat {
+  height: 100%;
+  display: flex;
+  padding: 0 16px;
+
+  .chat__start-conversation {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: auto;
+    align-items: center;
+
+    p,
+    mat-icon {
+      color: #64748b !important;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 370px auto;
+
+  @media screen and (max-width: 750px) {
+    .app__menu-main {
+      display: none;
+    }
+  }
+
+  .app__menu-main {
+    background-color: transparent;
+  }
+
+  .app__chats {
+    background-color: transparent;
+  }
+}
